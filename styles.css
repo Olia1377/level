@@ -1,0 +1,107 @@
+a {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: lato;
+	background-image: linear-gradient( to bottom, #a7f2bc, #5dc2c2);
+
+}
+
+#form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.avatar {
+	width: 200px;
+	margin-bottom: 35px;
+	padding: 25PX;
+}
+
+.lock, .user {
+	width: 25px;
+}
+
+.pass, .name  {
+	margin: 10px;
+    padding: 5px;
+	text-align: center;
+}
+
+#name, #pass{
+    border: none;
+    padding: 10px 30px 10px 50px;
+    width: 300px;
+    height: 25px;
+    background-color: #b0f7f7;
+}
+
+.user, .lock {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.other {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 10px;
+}
+
+.other a {
+	color: black;
+	transition: 0.5s;
+}
+
+.other a:hover {
+	color: #b0f7f7;
+	transition: 0.5s;
+}
+
+.remember input, #enter {
+	cursor: pointer;
+}
+
+.login {
+	text-align: center;
+	margin-top: 15px;
+}
+
+#enter {
+	text-transform: uppercase;
+	text-align: center;
+	color: #b0f7f7;
+	font-size: 20px;
+	height: 40px;
+	width: 200px;
+	background: #419494;
+	border: 1px solid #2f4747;
+	transition: .5s;
+}
+
+#enter:hover {
+	background: #b0f7f7;
+	color: black;
+	transition: .5s;
+}
